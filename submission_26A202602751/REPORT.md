@@ -17,7 +17,7 @@
 
 Ba seed baseline đạt macro-F1 `0.8531 ± 0.0112` và accuracy `0.9078 ± 0.0038` (trung bình ± độ lệch chuẩn mẫu). LR 0.05 thấp hơn baseline seed 1 về macro-F1 `0.0104`; chênh lệch nhỏ hơn ngưỡng tham khảo `2σ=0.0224`. Thí nghiệm LR 0.05 chỉ có một seed nên chưa đủ cơ sở kết luận tổng quát. Đường loss/metric có dao động nhẹ.
 
-Each run has one figure matching its `exp_id`; the two group-comparison figures are counted separately.
+Mỗi thí nghiệm có một ảnh riêng khớp với `exp_id`; hai ảnh so sánh nhóm được tách riêng.
 
 ### Per-run figures
 
