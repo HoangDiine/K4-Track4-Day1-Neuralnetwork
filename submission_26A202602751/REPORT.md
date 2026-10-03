@@ -17,7 +17,23 @@
 
 Ba seed baseline đạt macro-F1 `0.8531 ± 0.0112` và accuracy `0.9078 ± 0.0038` (trung bình ± độ lệch chuẩn mẫu). LR 0.05 thấp hơn baseline seed 1 về macro-F1 `0.0104`; chênh lệch nhỏ hơn ngưỡng tham khảo `2σ=0.0224`. Thí nghiệm LR 0.05 chỉ có một seed nên chưa đủ cơ sở kết luận tổng quát. Đường loss/metric có dao động nhẹ.
 
-Biểu đồ: [so sánh validation loss](figures/compare_hparam_val_loss.png), [so sánh validation macro-F1](figures/compare_hparam_val_macro_f1.png). Mỗi dòng trong bảng có biểu đồ và lịch sử JSON cùng `exp_id` trong `figures/` và `results/`.
+Each run has one figure matching its `exp_id`; the two group-comparison figures are counted separately.
+
+### Per-run figures
+
+![base-s1](figures/base-s1.png)
+
+![base-s2](figures/base-s2.png)
+
+![base-s3](figures/base-s3.png)
+
+![lr-0.05-s1](figures/lr-0.05-s1.png)
+
+### Learning-rate comparison
+
+![Validation loss comparison](figures/compare_hparam_val_loss.png)
+
+![Validation macro-F1 comparison](figures/compare_hparam_val_macro_f1.png)
 
 ## Đánh giá cuối trên eval
 
